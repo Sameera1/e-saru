@@ -1,84 +1,50 @@
-html{
-    position: relative;
-    min-height: 100%;
+#index{
+	background-color:#a7faab;
 }
-body{
-    font-family: Arvo, serif;
-    background: url("images/index.jpg") no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover; 
-    
-}
-.jumbotron{
-    background-color: transparent;
-    text-align: center;
-    letter-spacing: 2.5px;
-    margin-top: 250px;
-    padding: 10px;
-}
-
-.signup{
-    margin-top: 50px;
-    
-}
-.white{
-    background-color:rgba(246, 251, 251,0.8) ;
-}
-.white:hover{
-    background-color:rgb(246, 251, 251) ;
-}
-.footer{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    padding-top: 10px;
-}
-
-.navbar-custom , .footer{
-  background-color: #26df59;
-  border-color: #1dc74c;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#52e67b), to(#26df59));
-  background-image: -webkit-linear-gradient(top, #52e67b, 0%, #26df59, 100%);
-  background-image: -moz-linear-gradient(top, #52e67b 0%, #26df59 100%);
-  background-image: linear-gradient(to bottom, #52e67b 0%, #26df59 100%);
+.navbar-custom {
+  background-color: #236e09;
+  border-color: #194f06;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#329d0d), to(#236e09));
+  background-image: -webkit-linear-gradient(top, #329d0d, 0%, #236e09, 100%);
+  background-image: -moz-linear-gradient(top, #329d0d 0%, #236e09 100%);
+  background-image: linear-gradient(to bottom, #329d0d 0%, #236e09 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff52e67b', endColorstr='#ff26df59', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff329d0d', endColorstr='#ff236e09', GradientType=0);
 }
 .navbar-custom .navbar-brand {
-  color: #050505;
+  color: #ffffff;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-  color: #000000;
+  color: #e6e6e6;
   background-color: transparent;
 }
 .navbar-custom .navbar-text {
-  color: #050505;
+  color: #ffffff;
 }
 .navbar-custom .navbar-nav > li:last-child > a {
-  border-right: 1px solid #1dc74c;
+  border-right: 1px solid #194f06;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #050505;
-  border-left: 1px solid #1dc74c;
+  color: #ffffff;
+  border-left: 1px solid #194f06;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #023811;
+  color: #c0c0c0;
   background-color: transparent;
 }
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #023811;
-  background-color: #1dc74c;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#1dc74c), to(#36e165));
-  background-image: -webkit-linear-gradient(top, #1dc74c, 0%, #36e165, 100%);
-  background-image: -moz-linear-gradient(top, #1dc74c 0%, #36e165 100%);
-  background-image: linear-gradient(to bottom, #1dc74c 0%, #36e165 100%);
+  color: #c0c0c0;
+  background-color: #194f06;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#194f06), to(#287f0a));
+  background-image: -webkit-linear-gradient(top, #194f06, 0%, #287f0a, 100%);
+  background-image: -moz-linear-gradient(top, #194f06 0%, #287f0a 100%);
+  background-image: linear-gradient(to bottom, #194f06 0%, #287f0a 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1dc74c', endColorstr='#ff36e165', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff194f06', endColorstr='#ff287f0a', GradientType=0);
 }
 .navbar-custom .navbar-nav > .disabled > a,
 .navbar-custom .navbar-nav > .disabled > a:hover,
@@ -98,43 +64,43 @@ body{
 }
 .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
-  border-color: #1dc44b;
+  border-color: #184d06;
 }
 .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
 .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #023811;
-  border-bottom-color: #023811;
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
 }
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-  background-color: #1dc74c;
-  color: #023811;
+  background-color: #194f06;
+  color: #c0c0c0;
 }
 .navbar-custom .navbar-nav > .open > a .caret,
 .navbar-custom .navbar-nav > .open > a:hover .caret,
 .navbar-custom .navbar-nav > .open > a:focus .caret {
-  border-top-color: #023811;
-  border-bottom-color: #023811;
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
 }
 .navbar-custom .navbar-nav > .dropdown > a .caret {
-  border-top-color: #050505;
-  border-bottom-color: #050505;
+  border-top-color:#184d06;
+  border-bottom-color: #184d06;
 }
 @media (max-width: 767) {
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
-    color: #050505;
+    color: #ffffff;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #023811;
+    color: #c0c0c0;
     background-color: transparent;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #023811;
-    background-color: #1dc74c;
+    color: #c0c0c0;
+    background-color: #194f06;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -144,8 +110,37 @@ body{
   }
 }
 .navbar-custom .navbar-link {
-  color: #050505;
+  color: #ffffff;
 }
 .navbar-custom .navbar-link:hover {
-  color: #023811;
+  color: #c0c0c0;
+}
+
+.container-fluid .firstPage{
+    width: 19%;
+}
+.firstPage:hover{
+   transform: scale(1.5);
+    
+}
+.signup:link{
+    color: white;
+}
+.signup:hover{
+    background-color: #b2d3c2;
+}
+.signup{
+    background-color: #234f1e; 
+    color:white; 
+    padding: 15px;
+}
+
+.footer{
+ 
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #234f1e;
 }
